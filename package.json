@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aparker22.github.io/cr_portfolio",
+  "homepage": "https://aparker22.github.io/cr_portfolio",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
