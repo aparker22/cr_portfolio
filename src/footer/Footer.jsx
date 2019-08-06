@@ -1,4 +1,6 @@
 import React from 'react';
+import facebook from '../images/facebook.png';
+import instagram from '../images/instagram.png';
 
 export const Footer = () => {
     return(
@@ -16,7 +18,8 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="social">Facebook</div>
+            <div className="social"><a href="https://www.facebook.com/candace.rowell.92"><img src={facebook} className="soc-img" /></a>
+            <a href="https://www.instagram.com/candacerowell/"><img src={instagram} className="soc-img-inst"/></a></div>
         </div>
     ) 
 };

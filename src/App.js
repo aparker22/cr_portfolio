@@ -14,7 +14,6 @@ function App() {
     <Router className="App">
       <div className="App">
         <Header></Header>
-        <Photo></Photo>
         <div className="body">
           <Route path="/" exact component={Home} />
           <Route path="/personal" component={Personal} />

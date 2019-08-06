@@ -1,8 +1,8 @@
-html, body, #root, .App {
+html, body, #root {
   height: 100%;
   width: 100%;
   background-color: #ADA79F;
-  box-sizing: content-box;
+  overflow: auto;
 }
 
 .App {
@@ -28,22 +28,35 @@ html, body, #root, .App {
   padding: 10px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .photo {
   width: 100%;
-  background: green;
+  background: transparent;
 }
 
 .photo-img {
   width: 100%;
-  height: 100%;
+  height: 300px;
   object-fit: cover;
 }
 
 .body {
-  height: 40%;
-  width: 95%;
+  width: 100%;
   margin: 10px;
+}
+
+.text {
   background: #E5E4E2;
+  margin: 0;
+  padding:0;
+  width: 95%;
+  margin-top:10px;
 }
 
 .footer {
@@ -139,4 +152,19 @@ h5 {
   width: 100%;
   text-align: left;
   padding: 0 0 10px 15px;
+}
+
+.social {
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.soc-img {
+  width: 50px;
+  height: 50px;
+}
+
+.soc-img-inst {
+  width: 40px;
+  height: 40px;
 }
